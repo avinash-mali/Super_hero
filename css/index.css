@@ -1,0 +1,64 @@
+.nav-link{
+    color: rgba(244, 5, 5, 0.99);
+    font-size: large;
+    margin-left: 40px;
+    margin: 20px;
+}
+
+/*search box*/
+.search-box-container{
+    box-sizing: border-box;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 110px;
+    
+}
+
+/*background image of page*/
+body{
+    /* background-image: url('https://wallpapercave.com/wp/ZaHQ4Jf.jpg'); */
+    background-image: url('comics.jpg');
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+}
+/*width of search box*/
+.search-box-container .input-group{
+    width: 40%;
+
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        /* max-width: 100%; */
+        /* width: 400px; */
+        border-radius: 20px;
+   
+}
+.input::placeholder {
+    color: #d5d5d5;
+  }
+  
+  .input:focus {
+    outline-color: rgb(179, 131, 226);
+  }
+/*container for search results*/
+.search-results-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*card width and border*/
+.search-results-container .card{
+    width: 40%;
+    border: none;
+}
+
+/*change cursor on hover*/
+.input-group-text{
+    cursor: pointer;
+    color: red;
+    border-radius: 50px;
+}

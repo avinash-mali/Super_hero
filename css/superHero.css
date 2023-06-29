@@ -1,0 +1,36 @@
+/*center card and set background*/
+body{
+    /* background-image: url('https://wallpapercave.com/wp/ZaHQ4Jf.jpg'); */
+    background-image: url('comics.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+}
+.nav-link{
+    color: rgba(244, 5, 5, 0.99);
+    font-size: large;
+    margin-left: 40px;
+    margin: 20px;
+}
+
+
+/*group items in list*/
+.list-group-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*details of super hero width*/
+.superHero-details{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/*super hero details card*/
+.superHero-details .card{
+    width: 25%;
+}

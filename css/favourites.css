@@ -1,0 +1,21 @@
+/*background image*/
+body{
+    /* background-image: url('https://wallpapercave.com/wp/ZaHQ4Jf.jpg'); */
+    background-image: url('comics.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    overflow-x: hidden;
+}
+.nav-link{
+    color: rgba(244, 5, 5, 0.99);
+    font-size: large;
+    margin-left: 40px;
+    margin: 20px;
+}
+
+/*heading for no favourites*/
+h5{
+    margin-left: 60%;
+    margin-right: 50%;
+}
