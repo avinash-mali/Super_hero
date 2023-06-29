@@ -1,0 +1,39 @@
+<html>
+
+<head>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <!--favourites link-->
+    <ul class="nav">
+        <li class="nav-item">
+            <a class="nav-link active" href="favourites.html"><b>Favourites</b></a>
+        </li>
+    </ul>
+
+    <!--search box container-->
+    <div class="search-box-container">
+        <div class="input-group input-group-lg">
+            <!--search box tag on the side-->
+            <input type="text" class="form-control" 
+            placeholder="Find your favourite Super hero" aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-lg">
+                <!--actual search box-->
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroup-sizing-lg">Search</span>
+            </div>
+        </div>
+    </div>
+
+    <!--search results-->
+    <div class="search-results-container">
+    </div>
+    <script src="js/index.js">
+    </script>
+</body>
+
+</html>
